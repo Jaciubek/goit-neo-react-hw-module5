@@ -1,0 +1,74 @@
+/* Kontener główny dla szczegółów filmu */
+.movie-details {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Przycisk powrotu */
+  .go-back-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 16px;
+  }
+  
+  .go-back-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Tytuł filmu */
+  .movie-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+  
+  /* Plakat filmu */
+  .movie-poster {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  /* Opis filmu */
+  .movie-overview {
+    font-size: 1rem;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Nawigacja między zakładkami (cast, reviews) */
+  .movie-nav {
+    margin-top: 20px;
+  }
+  
+  .movie-nav-link {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #007bff;
+    margin-right: 20px;
+  }
+  
+  .movie-nav-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Tekst informujący o ładowaniu */
+  .loading-text {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 20px;
+  }

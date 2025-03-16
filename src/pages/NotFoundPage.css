@@ -1,0 +1,36 @@
+/* Kontener strony NotFound */
+.not-found-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    max-width: 600px;
+    margin: 100px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Tytuł strony 404 */
+  .not-found-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ff6347; /* Tomato color for a bright attention-grabbing title */
+    margin-bottom: 20px;
+  }
+  
+  /* Link do strony głównej */
+  .home-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    border: 2px solid #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .home-link:hover {
+    background-color: #007bff;
+    color: white;
+  }

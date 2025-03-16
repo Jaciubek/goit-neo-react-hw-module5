@@ -1,0 +1,33 @@
+/* Styl dla głównej nawigacji */
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: #1e1e1e;
+    padding: 15px;
+   
+  }
+  
+  /* Styl dla linków */
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: color 0.3s, background-color 0.3s;
+    border-radius: 5px;
+  }
+  
+  /* Efekt hover */
+  .nav-link:hover {
+    background-color: #3a3a3a;
+  }
+  
+  /* Styl dla aktywnego linku */
+  .active {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 8px 16px;
+  }
